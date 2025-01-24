@@ -1,0 +1,76 @@
+{
+  "monthly": [
+    {
+      "plan": "basic",
+      "price": 9.99,
+      "features": [
+        "Standard quality images",
+        "Limited to personal use",
+        "Email support"
+      ],
+      "popular": false
+    },
+    {
+      "plan": "standard",
+      "price": 19.99,
+      "features": [
+        "Expanded library with more diverse abstract images",
+        "High-resolution images available",
+        "Suitable for commercial use",
+        "Priority email support",
+        "Advanced analytics"
+      ],
+      "popular": true
+    },
+    {
+      "plan": "premium",
+      "price": 19.99,
+      "features": [
+        "Full access to the entire image library, including exclusive content",
+        "Highest quality images, including premium collections",
+        "Commercial and resale rights",
+        "Dedicated customer support line",
+        "24/7 support response time",
+        "Advanced analytics and insights"
+      ],
+      "popular": true
+    }
+  ],
+  "annually": [
+    {
+      "plan": "basic",
+      "price": 6.99,
+      "features": [
+        "Standard quality images",
+        "Limited to personal use",
+        "Email support"
+      ],
+      "popular": false
+    },
+    {
+      "plan": "standard",
+      "price": 19.99,
+      "features": [
+        "Expanded library with more diverse abstract images",
+        "High-resolution images available",
+        "Suitable for commercial use",
+        "Priority email support",
+        "Advanced analytics"
+      ],
+      "popular": true
+    },
+    {
+      "plan": "premium",
+      "price": 19.99,
+      "features": [
+        "Full access to the entire image library, including exclusive content",
+        "Highest quality images, including premium collections",
+        "Commercial and resale rights",
+        "Dedicated customer support line",
+        "24/7 support response time",
+        "Advanced analytics and insights"
+      ],
+      "popular": true
+    }
+  ]
+}
