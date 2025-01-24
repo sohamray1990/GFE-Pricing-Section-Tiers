@@ -39,21 +39,21 @@ ol {
 .pricing-tiers {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 40px;
 
   background: #fff;
   box-shadow:
     0px 10px 15px -3px rgba(0, 0, 0, 0.1),
     0px 4px 6px -2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  padding: 56px 16px;
+  padding: 64px 16px;
   margin-top: 16px;
 }
 
 .pricing-tiers__header {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -67,23 +67,24 @@ ol {
 
 .pricing-tiers__header__title {
   font-weight: 600;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 48px;
+  line-height: 48px;
   text-align: center;
   color: #171717;
 }
 
 .pricing-tiers__header__subtitle {
-  text-align: center;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 28px;
+  text-align: center;
   color: #525252;
 }
 
 .pricing-tiers__content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 64px;
   align-items: center;
 }
 
@@ -128,7 +129,8 @@ ol {
   align-items: center;
   justify-content: center;
 
-  margin: -16px -16px 0 -16px; /* The negative margin is an exception, overrides the positive padding of its parent */
+  margin: -16px -16px 0 -16px;
+  /* The negative margin is an exception, overrides the positive padding of its parent */
 }
 
 .active-plan {
@@ -323,7 +325,8 @@ ol {
   }
 
   .pricing-tiers__content__plan__highlight {
-    margin: -31px -31px 0 -31px; /* The negative margin is an exception, overrides the positive padding of its parent */
+    margin: -31px -31px 0 -31px;
+    /* The negative margin is an exception, overrides the positive padding of its parent */
   }
 }
 
@@ -333,11 +336,15 @@ ol {
     margin: 0 auto;
     min-height: 768px;
     padding: 0 32px;
-    width: 1280px;
+    width: 1380px;
+  }
+
+  .pricing-tiers {
+    padding: 96px 16px;
   }
 
   .pricing-tiers__header {
-    max-width: 55%;
+    max-width: 70%;
     align-self: center;
   }
 

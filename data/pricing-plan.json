@@ -1,18 +1,23 @@
 {
   "monthly": [
     {
-      "plan": "basic",
-      "price": 9.99,
+      "plan": "Basic",
+      "description": "Access to a curated selection of abstract images",
+      "price": "$9.99 / month",
+      "billingPeriod": "Billed monthly",
       "features": [
         "Standard quality images",
         "Limited to personal use",
         "Email support"
       ],
-      "popular": false
+      "isPopular": false,
+      "buttonLabel": "Buy Now"
     },
     {
-      "plan": "standard",
-      "price": 19.99,
+      "plan": "Standard",
+      "description": "Next-level Integrations, priced economically",
+      "price": "$19.99 / month",
+      "billingPeriod": "Billed monthly",
       "features": [
         "Expanded library with more diverse abstract images",
         "High-resolution images available",
@@ -20,11 +25,14 @@
         "Priority email support",
         "Advanced analytics"
       ],
-      "popular": true
+      "isPopular": true,
+      "buttonLabel": "Buy Now"
     },
     {
-      "plan": "premium",
-      "price": 19.99,
+      "plan": "Premium",
+      "description": "Experience limitless living for power users",
+      "price": "$29.99 / month",
+      "billingPeriod": "Billed monthly",
       "features": [
         "Full access to the entire image library, including exclusive content",
         "Highest quality images, including premium collections",
@@ -33,23 +41,29 @@
         "24/7 support response time",
         "Advanced analytics and insights"
       ],
-      "popular": true
+      "isPopular": false,
+      "buttonLabel": "Buy Now"
     }
   ],
   "annually": [
     {
-      "plan": "basic",
-      "price": 6.99,
+      "plan": "Basic",
+      "description": "Access to a curated selection of abstract images",
+      "price": "$6.99 / month",
+      "billingPeriod": "Billed annually ($84)",
       "features": [
         "Standard quality images",
         "Limited to personal use",
         "Email support"
       ],
-      "popular": false
+      "isPopular": false,
+      "buttonLabel": "Buy Now"
     },
     {
-      "plan": "standard",
-      "price": 19.99,
+      "plan": "Standard",
+      "description": "Next-level Integrations, priced economically",
+      "price": "$15.99 / month",
+      "billingPeriod": "Billed annually ($192)",
       "features": [
         "Expanded library with more diverse abstract images",
         "High-resolution images available",
@@ -57,11 +71,14 @@
         "Priority email support",
         "Advanced analytics"
       ],
-      "popular": true
+      "isPopular": true,
+      "buttonLabel": "Buy Now"
     },
     {
-      "plan": "premium",
-      "price": 19.99,
+      "plan": "Premium",
+      "description": "Experience limitless living for power users",
+      "price": "$25.99 / month",
+      "billingPeriod": "Billed annually ($312)",
       "features": [
         "Full access to the entire image library, including exclusive content",
         "Highest quality images, including premium collections",
@@ -70,7 +87,8 @@
         "24/7 support response time",
         "Advanced analytics and insights"
       ],
-      "popular": true
+      "isPopular": false,
+      "buttonLabel": "Buy Now"
     }
   ]
 }
